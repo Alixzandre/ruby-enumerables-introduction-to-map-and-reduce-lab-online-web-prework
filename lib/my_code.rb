@@ -55,8 +55,9 @@ def reduce_to_all_true(source_array)
   
   while count < source_array.length do
       if source_array[count] == true
-        return true
-      
+        return be_truthy
+      else
+        be_falsey
       end
     count += 1
   end
