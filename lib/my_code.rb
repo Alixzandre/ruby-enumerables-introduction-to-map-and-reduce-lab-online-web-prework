@@ -56,6 +56,7 @@ def reduce_to_all_true(source_array)
   while count < source_array.length do
       if source_array[count] == true
         bill = true
+        
       end  
     count += 1
   return bill
