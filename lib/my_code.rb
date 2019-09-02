@@ -78,7 +78,5 @@ def reduce_to_any_true(source_array)
       end
     count += 1
   end
-  
-   
 end
 
