@@ -63,7 +63,7 @@ def reduce_to_all_true(source_array)
         bill  = false
     count += 1
   end
-   return bill
+  return bill
 end
 
 
