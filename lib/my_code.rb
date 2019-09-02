@@ -73,7 +73,7 @@ def reduce_to_any_true(source_array)
       if source_array[count] == true
         return true
       end  
-      elseif source_array[count] == false
+      if source_array[count] == false
        return false
       end
     count += 1
