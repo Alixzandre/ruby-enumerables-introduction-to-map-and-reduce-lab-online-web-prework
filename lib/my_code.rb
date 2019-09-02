@@ -66,5 +66,7 @@ def reduce_to_all_true(source_array)
    return bill
 end
 
-re
+def reduce_to_any_true(source_array)
+
+end
 
