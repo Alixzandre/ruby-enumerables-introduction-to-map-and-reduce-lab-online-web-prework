@@ -71,12 +71,15 @@ def reduce_to_any_true(source_array)
   
   while count < source_array.length do
       if source_array[count] == true
-        return = true
+        bill = true
       end  
       if source_array[count] == false
-        return = false
+        bill = false
       end
     count += 1
   end
+  
+   return bill
+  
 end
 
